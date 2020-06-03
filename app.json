@@ -24,6 +24,11 @@
       "required": false,
       "description": "Your TEST Gateway Default Currency"
     },
+    "IS_CERT_AUTH_ENABLED": {
+      "required": false,
+      "description": "Toggles SSL Cert",
+      "value": false
+    },
     "WEBHOOKS_NOTIFICATION_SECRET": {
       "required": false,
       "description": "Webhook notification secret for payload validation"
